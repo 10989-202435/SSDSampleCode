@@ -10,6 +10,7 @@ namespace L01SampleAuth.Data
             : base(options)
         {
         }
+        public DbSet<L01SampleAuth.Models.Car>? Car { get; set; }
 
         //Data Tables
     }
