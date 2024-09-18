@@ -24,6 +24,13 @@ namespace L01SampleAuth
                 .AddDefaultTokenProviders()
                 .AddDefaultUI();
 
+            builder.Services.AddAuthentication().AddFacebook(facebookOptions =>
+            {
+                facebookOptions.AppId = builder.Configuration["Authentication:Facebook:AppId"];
+                facebookOptions.AppSecret = builder.Configuration["Authentication:Facebook:AppSecret"];
+            });
+
+
             builder.Services.AddAuthorization(options =>
             {
                 options.AddPolicy("MohawkAdmin", policy =>
@@ -84,4 +91,4 @@ namespace L01SampleAuth
             app.Run();
         }
     }
-}
+}   
