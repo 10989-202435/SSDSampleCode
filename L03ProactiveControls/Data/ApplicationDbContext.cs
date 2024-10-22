@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using L03ProactiveControls.Models;
 
 namespace L03ProactiveControls.Data
 {
@@ -9,5 +10,6 @@ namespace L03ProactiveControls.Data
             : base(options)
         {
         }
+        public DbSet<L03ProactiveControls.Models.Customer>? Customer { get; set; }
     }
 }
