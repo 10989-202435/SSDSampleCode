@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L01SampleAuth", "L01SampleA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L02CommonAttacks", "L02CommonAttacks\L02CommonAttacks.csproj", "{425F43AE-EFC2-41B9-B450-4CA6E1F7DA14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L03ProactiveControls", "L03ProactiveControls\L03ProactiveControls.csproj", "{57A28C90-2DA5-4B37-8FB5-B160015EFF7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L03ProactiveControls", "L03ProactiveControls\L03ProactiveControls.csproj", "{57A28C90-2DA5-4B37-8FB5-B160015EFF7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L04Cryptography", "L04Cryptography\L04Cryptography.csproj", "{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{57A28C90-2DA5-4B37-8FB5-B160015EFF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A28C90-2DA5-4B37-8FB5-B160015EFF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A28C90-2DA5-4B37-8FB5-B160015EFF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
