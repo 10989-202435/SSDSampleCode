@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L02CommonAttacks", "L02Comm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L03ProactiveControls", "L03ProactiveControls\L03ProactiveControls.csproj", "{57A28C90-2DA5-4B37-8FB5-B160015EFF7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L04Cryptography", "L04Cryptography\L04Cryptography.csproj", "{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L04Cryptography", "L04Cryptography\L04Cryptography.csproj", "{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L05AddHTTPS", "L05AddHTTPS\L05AddHTTPS.csproj", "{9906337D-F5A3-4608-9284-473208CEB39C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L06Logging", "L06Logging\L06Logging.csproj", "{686116F8-7DB2-4A6C-B591-B34A00C0BF65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0BDFABE-5B96-4CFF-86C7-CD3BCDEC4515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9906337D-F5A3-4608-9284-473208CEB39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9906337D-F5A3-4608-9284-473208CEB39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9906337D-F5A3-4608-9284-473208CEB39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9906337D-F5A3-4608-9284-473208CEB39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686116F8-7DB2-4A6C-B591-B34A00C0BF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686116F8-7DB2-4A6C-B591-B34A00C0BF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686116F8-7DB2-4A6C-B591-B34A00C0BF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686116F8-7DB2-4A6C-B591-B34A00C0BF65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
